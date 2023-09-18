@@ -30,12 +30,14 @@ RabbitMQ comes with an admin panel. When you run the task emitter, reply y to op
 
 Explore the RabbitMQ website.
 
+![](image-1.png)
 ## Execute a Consumer / Worker
 
 1. Run listening_worker.py
 
 Will it terminate on its own? How do you know?
 
+![](image-2.png)
 ## Ready for Work
 
 1. Use your emitter_of_tasks to produce more task messages.
@@ -49,7 +51,7 @@ Add multiple tasks (e.g. First message, Second message, etc.)
 How are tasks distributed?
 Monitor the windows with at least two workers.
 Which worker gets which tasks?
-
+![Alt text](image-3.png)
 ## Reference
 
 - [RabbitMQ Tutorial - Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
@@ -57,3 +59,4 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+![Alt text](image-4.png)
